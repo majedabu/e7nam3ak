@@ -1,0 +1,296 @@
+<html>
+  <head>
+    <title>Sample Studnet Guide</title>	
+    <link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"> 
+	<meta charset="UTF-8">
+	<meta name="majed" content="Comverse Web">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	
+	<script>
+$(document).ready(function(){
+    $("#hiide3").click(function(){
+        $("#four-box-main").hide(100);
+	    $("#third-box-main").show(100);
+
+    });
+	
+
+		
+    $("#third-box-main").click(function(){
+		$("#first-box-main").hide(100);
+		$("#third-box-main").hide(100);
+		$("#second-box-main").hide(100);
+		$("#fife-box-main").hide(100);
+		$("#atfe").hide(100);
+
+
+	    $("#first-box-main11").show(100);
+	    $("#first-box-main111").show(100);
+
+
+
+
+    });
+	 $("#first-box-main").click(function(){
+		$("#first-box-main").hide(100);
+		$("#third-box-main").hide(100);
+		$("#second-box-main").hide(100);
+		$("#fife-box-main").hide(100);
+				$("#atfe").hide(100);
+
+		
+	  $("#second-box-main22").show(100);
+	  $("#second-box-main222").show(100);
+		$("#second-box-main2222").show(100);
+
+    });
+		$("#hiide01").click(function(){
+		var the_date = $("#date").val();
+		console.log(the_date)
+		if (document.getElementById("Ultra").value == "796"){
+		   window.location = "http://www.kavim-t.co.il/schedule/lineTimes.aspx?lineinfo=796_h_18_0&monthDay="+the_date;}
+		else 	{
+		   window.location = "http://www.kavim-t.co.il/schedule/lineTimes.aspx?lineinfo=633_n_8_0&monthDay="+the_date;}
+    });
+
+	$("#second-box-main").click(function(){
+     
+	 			$("#first-box-main").hide(100);
+		$("#third-box-main").hide(100);
+		$("#second-box-main").hide(100);
+		$("#fife-box-main").hide(100);
+				$("#atfe").hide(100);
+	 
+		
+	 				$("#nnts7rwnnam").show(1000);
+
+	 
+	});		
+	
+	$("#fife-box-main").click(function(){
+			$("#first-box-main").hide(100);
+		$("#third-box-main").hide(100);
+		$("#second-box-main").hide(100);
+		$("#fife-box-main").hide(100);
+				$("#atfe").hide(100);
+
+			  $("#second-box-main211").show(100);
+	  $("#second-box-main2111").show(100);
+		$("#second-box-main21111").show(100);
+					  $("#second-box-main21").show(100);
+
+		
+		
+		});	
+		
+		
+	
+	
+    $("#wlshi").click(function(){
+		$("#first-box-main").hide(100);
+		$("#third-box-main").hide(100);
+		$("#second-box-main").hide(100);
+		$("#fife-box-main").hide(100);
+		$("#nnts7rwnnam").hide(100);
+
+
+		$("#second-box-main2112").show(100);
+	    $("#second-box-main21112").show(100);
+	 	$("#second-box-main211112").show(100);
+	    $("#second-box-main212").show(100);
+
+
+
+
+    });
+    $("#hiide2").click(function(){
+        $("#second-box-main2").hide(1000);
+	    $("#first-box-main").show(100);
+	    $("#second-box-main").show(100);
+	    $("#third-box-main").show(100);
+
+    });
+
+    $("#hiide1").click(function(){
+        $("#first-box-main1").hide(1000);
+	    $("#first-box-main").show(100);
+	    $("#second-box-main").show(100);
+	    $("#third-box-main").show(100);
+
+    });
+
+});
+</script>
+  </head>
+  <body bgcolor=white>
+  <script>		
+     createjs.Sound.registerSound("./bus.mp3", "x");		
+     setTimeout(function () {		
+         createjs.Sound.play("x");		
+     }, 1000)		
+ </script>
+ 
+	<div class="container-width">
+				<div class="address" id="idress">
+			
+				<img id="hamsa2" src="hamsa2.png" alt="Read text icon" height="40" width="40" class="soso2" align="left">
+				<h1 style="text-align:center;font-size:50px;color:blue;"><img id="hamsa1" src="hamsa1.png" alt="Read text icon" height="80" width="120" class="soso1" align="middle">احنا معك<h1>
+				<div id="atfe">
+				<h4 style="text-align:right;font-size:36px;padding-top:20px;">احنا معك...  تطبيق معد لطلاب الجامعات  بهدف المساعدة بتخطي وتجاوز العقبات التي تواجه طلاب سنة أولى بالأخص</h4>
+				</div>
+				</div>
+				<div class="box-main" id="first-box-main">
+			
+
+		           <h3>
+		           إدارة منزلية
+		           </h3>
+	
+			          	
+                   </div>
+				   	
+					
+					<div class="box-main" id="first-box-main1">
+						<button id="hiide1"><h3>Back</h3></button>
+						<br>
+						<br>
+						<h4>Choose Bus</h4><select id="Ultra" >  
+							 <option value="0">Select</option>
+							 <option value="796">796</option>
+							 <option value="633">633</option>
+							 
+						</select
+						<br><br>
+						
+						<h4>Choose Date</h4> <input id="date" type="date" val="">
+						
+						<button id="hiide01"><h2>GO</h2></button>
+
+
+                   </div>
+				   			   
+				   
+                   <div class="box-main" id="second-box-main">
+		           <h3>
+                   إدارة وقت		           	
+		           </h3>
+              
+					</div>
+					
+		           <div class="box-main" id="fife-box-main">
+					   <h3>
+ارقام هواتف طلاب جامعة في سنوات متقدمة
+					   </h3>
+			
+						
+					</div>
+					
+					
+					
+				   <div class="box-main" id="third-box-main" >
+
+                   <h3>
+				   ورشات ومجموعات
+		           </h3>
+                  
+                      
+					</div>
+				   
+				   <div class="box-main" id="first-box-main11">
+			
+
+		           <h3>
+مجموعات دعم		           </h3>
+				   </div>
+				   <div class="box-main" id="first-box-main111">
+			
+
+		           <h3>
+		           ورشات
+ارشاد
+
+		           </h3>
+				   </div>
+				   
+
+
+				   <div class="box-main" id="second-box-main22"><h3>طعام </h3></div>		
+				   <div class="box-main" id="second-box-main222"><h3> مشتريات</h3></div>		
+				   <div class="box-main" id="second-box-main2222"><h3> دفع</h3></div>		
+				  		   
+				   				   
+				   
+				   
+				   	<div class="box-main" id="second-box-main21"><h3> تمريض</h3></div>		
+				   <div class="box-main" id="second-box-main211"><h3> علاج بالتشغيل</h3></div>		
+				   <div class="box-main" id="second-box-main2111"><h3> علوم الحاسوب</h3></div>		
+				   <div class="box-main" id="second-box-main21111"><h3> محاماه</h3></div>		
+
+				   	<div class="box-main" id="second-box-main212"><h3> الجدول الأسبوعي الثابت</h3></div>		
+				   <div class="box-main" id="second-box-main2112"><h3> دمج جدول الامتحانات والوظائف</h3></div>		
+				   <div class="box-main" id="second-box-main21112"><h3> تذكير لاحداث هامة\ قريبة</h3></div>		
+				   <div class="box-main" id="second-box-main211112"><h3> نصائح لأدارة وقت سليم</h3></div>	
+				   
+
+
+				   
+				   
+				   
+	<div id="nnts7rwnnam">			   
+				       <h1>Personal Information</h1>
+    <hr width=100% color=red>
+    <hr width=100% color=red>
+    <form  text-align: right;>
+    :الاسم
+    <Input type="text" Name="Name" Size=15 Maxlength=15>
+    <br>
+    :الجنس
+    <br><Input type="radio" Name="Gender">&nbsp;M&nbsp;&nbsp;<Input type="radio" Name="Gender">&nbsp;F
+    <br>
+	   :الجامعه
+    <Input type="text" Name="Name" Size=15 Maxlength=15>
+      <br>
+	  	    :التخصص
+    <Input type="text" Name="Name" Size=15 Maxlength=15>
+      <br>
+	  
+	  :جدول الساعات الاسبوعيه<input type='file' name='upload'>
+	        <br>
+	  
+	:تواريخ الامتحانات<input type='file' name='upload'>
+	        <br>
+	  
+	  :تواريخ تسليم الوظائف<input type='file' name='upload'>
+	  
+  <center><Input type="Reset" Name="Reset" value="Reset" id="wlshi"></Center></form>    
+				   
+	</div>		   
+				   
+				  
+				
+	</div>
+	
+	<div class="box-main2" id="second-box-main2">
+
+	<button id="hiide2" ><h3>Back</h3></button>
+
+	</div>
+
+				   
+<div id="dkek">	
+<select>
+  <option value="volvo">English</option>
+  <option value="saab">עברית</option>
+  <option value="vw" selected>العربيه</option>
+</select>			   
+				   
+</div>
+				   
+				
+  </body>
+</html>
